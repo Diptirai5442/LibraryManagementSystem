@@ -5,37 +5,37 @@ system will manage books, authors, and user accounts with different permission l
 
 ## Table of Contents
 
- Controllers handle HTTP requests
- Services contain business logic
- Repositories manage database operations
- Entities define data models
- Security configurations protect endpoints
+- Controllers handle HTTP requests
+- Services contain business logic
+- Repositories manage database operations
+- Entities define data models
+- Security configurations protect endpoints
 
 ## Add Dependencies
 
- Spring Boot
- Spring Security 
- Java 
- Maven/Gradle
- H2 Database
- Spring Data JPA
- JWT for authentication
- Spring Web
+- Spring Boot
+- Spring Security 
+- Java 
+- Maven/Gradle
+- H2 Database
+- Spring Data JPA
+- JWT for authentication
+- Spring Web
 
 ## Security Requirements
 
- Implement user registration and authentication
- Support three roles: ADMIN, LIBRARIAN, USER
- Use JWT tokens for authentication
- Implement password encryption using BCrypt
- Role-Based Access Control: 
- ADMIN: Full access to all endpoints
- LIBRARIAN: Can manage books and authors
- USER: Can only view books and authors
- Security Configurations: 
- Configure CORS and CSRF protection
- Set secure HTTP headers
- Handle session management
+- Implement user registration and authentication
+- Support three roles: ADMIN, LIBRARIAN, USER
+- Use JWT tokens for authentication
+- Implement password encryption using BCrypt
+- Role-Based Access Control: 
+- ADMIN: Full access to all endpoints
+- LIBRARIAN: Can manage books and authors
+- USER: Can only view books and authors
+- Security Configurations: 
+- Configure CORS and CSRF protection
+- Set secure HTTP headers
+- Handle session management
 
 ## Entity Requirements
 
