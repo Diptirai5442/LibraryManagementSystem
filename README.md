@@ -5,11 +5,11 @@ system will manage books, authors, and user accounts with different permission l
 
 ## Table of Contents
 
--Controllers handle HTTP requests
--Services contain business logic
--Repositories manage database operations
--Entities define data models
--Security configurations protect endpoints
+ Controllers handle HTTP requests
+ Services contain business logic
+ Repositories manage database operations
+ Entities define data models
+ Security configurations protect endpoints
 
 ## Add Dependencies
 
@@ -40,8 +40,7 @@ system will manage books, authors, and user accounts with different permission l
 ## Entity Requirements
 
 User Entity:
- java
- Copy
+
 - id (Long)
 - username (String, unique)
 - password (String, encrypted)
@@ -52,8 +51,8 @@ User Entity:
 
 ## Book Entity:
 
- java
- Copy
+Book Entity: 
+
 - id (Long)
 - title (String)
 - isbn (String, unique)
@@ -65,8 +64,8 @@ User Entity:
 
 ## Author Entity:
 
- java
- Copy
+Author Entity:
+
 - id (Long)
 - firstName (String)
 - lastName (String)
