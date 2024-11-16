@@ -1,0 +1,60 @@
+Here's the step-by-step working of the Library Management System:
+
+Project Structure:
+
+Controllers handle HTTP requests
+Services contain business logic
+Repositories manage database operations
+Entities define data models
+Security configurations protect endpoints
+
+
+User Registration Flow:
+
+User submits registration details
+System encrypts password
+User data stored in H2 database
+JWT token generated for authentication
+
+
+Authentication Process:
+
+User logs in with credentials
+System validates credentials
+JWT token issued for subsequent requests
+Token required for protected endpoints
+
+
+Book Management:
+
+CRUD operations for books
+Role-based access control
+Librarians can add/update books
+Users can view and search books
+Admins have full access
+
+
+Security Features:
+
+JWT based authentication
+Password encryption
+Role-based authorization
+Protected API endpoints
+Stateless session management
+
+
+Database:
+
+H2 in-memory database
+JPA/Hibernate for ORM
+Entity relationships
+Data persistence
+
+
+API Endpoints:
+
+/api/auth/* for authentication
+/api/books/* for book operations
+/register for user registration
+Protected routes need JWT token
+The system follows a clean architecture with separation of concerns and industry-standard security practices!
